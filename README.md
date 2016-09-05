@@ -6,9 +6,13 @@ To run:
 > node multiGet <url> [options]
 
 options:
+
   -parallel   : if set chunks will be requested in parallel
+  
   -o=<path>   : output file location
+  
   -s=<number> : size of chunks
+  
   -n=<number> : number of chunks
 
 Tested with Node.js v4.5.0
