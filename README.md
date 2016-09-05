@@ -4,6 +4,7 @@ This script downloads a file in parts. It will work with any size file, but if t
 
 To run:
 > node multiGet <url> [options]
+
 options:
   -parallel   : if set chunks will be requested in parallel
   -o=<path>   : output file location
